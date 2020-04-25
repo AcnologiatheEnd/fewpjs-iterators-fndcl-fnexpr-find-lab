@@ -4,6 +4,7 @@ function testFunc() {
   return "hi"
 }
 
-unction superBowlWin(rec) {
-  rec.find(function(a) {return a === "W" })
-} f
+function superbowlWin(array) {
+  let win = array.find(object => object.result === "W")
+    return win? win.year : undefined 
+} 
